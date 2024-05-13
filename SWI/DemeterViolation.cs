@@ -12,8 +12,8 @@ namespace SWI
         {
             House myHouse = new House();
 
-            // Violating the Law of Demeter by accessing a method of an object returned by another method
-            bool isDoorOpen = myHouse.GetDoor().IsOpen();
+            // Fixed the violation of the Law of Demeter
+            bool isDoorOpen = myHouse.IsDoorOpen(); // Directly ask the house if the door is open
 
             Console.WriteLine("Is the door open? " + (isDoorOpen ? "Yes" : "No"));
         }
@@ -28,10 +28,10 @@ namespace SWI
             door = new Door();
         }
 
-        // Method to return the Door object
-        public Door GetDoor()
+        // Method to encapsulate the check if the door is open
+        public bool IsDoorOpen()
         {
-            return door;
+            return door.IsOpen();
         }
     }
 
