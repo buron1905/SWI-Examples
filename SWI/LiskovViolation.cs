@@ -11,32 +11,42 @@ namespace SWI
         public void RunExample()
         {
             Bird myBird = new Penguin();
+            myBird.Eat();
+            //myBird.Fly(); // not implemented
 
-            // Attempt to invoke Fly, expecting an operation that violates LSP
-            try
-            {
-                myBird.Fly();
-            }
-            catch (InvalidOperationException ex)
-            {
-                Console.WriteLine("Error: " + ex.Message);
-            }
+            IFlyable myFlyableBird = new Eagle();
+            myFlyableBird.Fly();
         }
     }
 
-    public class Bird
+    public abstract class Bird
     {
-        public virtual void Fly()
+        public abstract void Eat();
+    }
+
+    public interface IFlyable
+    {
+        void Fly();
+    }
+
+    public class Eagle : Bird, IFlyable
+    {
+        public override void Eat()
         {
-            Console.WriteLine("Flying high!");
+            Console.WriteLine("Eagle is eating.");
+        }
+
+        public void Fly()
+        {
+            Console.WriteLine("Eagle flying high!");
         }
     }
 
     public class Penguin : Bird
     {
-        public override void Fly()
+        public override void Eat()
         {
-            throw new InvalidOperationException("Penguins can't fly!");
+            Console.WriteLine("Penguin is eating.");
         }
     }
 }
