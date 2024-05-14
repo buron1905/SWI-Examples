@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Source\\Other\\SWI\\SWI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0078A0E1-1550-4902-9908-78233629EDC1}|SWI.csproj|c:\\source\\other\\swi\\swi\\demeterviolation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0078A0E1-1550-4902-9908-78233629EDC1}|SWI.csproj|solutionrelative:demeterviolation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0078A0E1-1550-4902-9908-78233629EDC1}|SWI.csproj|c:\\source\\other\\swi\\swi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0078A0E1-1550-4902-9908-78233629EDC1}|SWI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0078A0E1-1550-4902-9908-78233629EDC1}|SWI.csproj|c:\\source\\other\\swi\\swi\\liskovviolation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0078A0E1-1550-4902-9908-78233629EDC1}|SWI.csproj|solutionrelative:liskovviolation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,27 +59,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DemeterViolation.cs",
-              "DocumentMoniker": "C:\\Source\\Other\\SWI\\SWI\\DemeterViolation.cs",
-              "RelativeDocumentMoniker": "DemeterViolation.cs",
-              "ToolTip": "C:\\Source\\Other\\SWI\\SWI\\DemeterViolation.cs",
-              "RelativeToolTip": "DemeterViolation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Title": "LiskovViolation.cs",
+              "DocumentMoniker": "C:\\Source\\Other\\SWI\\SWI\\LiskovViolation.cs",
+              "RelativeDocumentMoniker": "LiskovViolation.cs",
+              "ToolTip": "C:\\Source\\Other\\SWI\\SWI\\LiskovViolation.cs",
+              "RelativeToolTip": "LiskovViolation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:44:08.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Source\\Other\\SWI\\SWI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Source\\Other\\SWI\\SWI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:32:33.39Z",
+              "WhenOpened": "2024-05-14T09:46:51.908Z",
               "EditorCaption": ""
             }
           ]

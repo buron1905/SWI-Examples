@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SWI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1bc44e8a0cbff8e54f373273fdd6cd372ed2674")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf6d2aab019068f9b9d718e5a2c7b864c683eddf")]
 [assembly: System.Reflection.AssemblyProductAttribute("SWI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SWI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
